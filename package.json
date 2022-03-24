@@ -1,0 +1,21 @@
+{
+    "name": "dswa5-05-ac-pt3009351",
+    "version": "1.0.0",
+    "description": "Campo de angular, busca e bootstrap",
+    "main": "index.js",
+    "scripts": {
+        "preinstall": "npx npm-force-resolutions"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "ejs": "^0.8.8",
+        "express": "^4.17.1",
+        "express-load": "^1.1.16",
+        "method-override": "^2.3.10"
+    },
+    "engines": {
+        "node": "12.x"
+    }
+}
