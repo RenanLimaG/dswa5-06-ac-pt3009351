@@ -3,6 +3,7 @@ angular.module('ifsp').controller('ContatosController',
 		$scope.contatos = [];
 		$scope.filtro = '';
 		var Contato = $resource('/contatos/:id');
+		
 		function buscaContatos() {
 			Contato.query(
 				function(contatos) {

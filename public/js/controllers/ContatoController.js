@@ -7,7 +7,7 @@ angular.module('ifsp').controller('ContatoController',
 			},
 			function(erro) {
 				$scope.mensagem = {
-					texto: 'Não foi possível obter o conato.'
+					texto: 'Não foi possível obter o contato.'
 				};
 				console.log($routeParams.contatoId);
 			}
